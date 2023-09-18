@@ -76,7 +76,44 @@ if score >= 60:
 else:
     print('Failed')
 
-print(result2)
+
+print('----------------------')
+
+if 0 <= score <= 100:
+    if score >= 60:
+        print('Passed')
+    else:
+        print('Failed')
+else:
+    print('Invalid Score')
 
 
+print('----------------------')
 
+score = 95
+
+if 0 <= score <= 100:
+    if score >= 90:
+        print('A')  # pass
+    elif score >= 80:
+        print('B')  # pass
+    elif score >= 70:
+        print('C')  # pass
+    elif score >= 60:
+        print('D')  # pass
+    else:
+        print('F')  # pass
+else:
+    print('Invalid')    # pass
+
+
+"""
+A score of a student is given, write a program that can calculate the grade of the student
+
+    Possible grades are:
+        1. A ( 90 ~ 100)
+        2. B ( 80 ~ 90 )
+        3. C ( 70 ~ 80 )
+        4. D ( 60 ~ 70 )
+        5. F ( less than 60)
+"""
