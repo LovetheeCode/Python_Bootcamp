@@ -12,6 +12,6 @@ print('My name is {} and I am {} years old'.format(name,age))
 
 print(f'My name is {name} and I am {age} years old')  # --> the easiest way to achieve concatenation in Python
 
-print('Python', 3, 'is awersome: ', True)
+print('Python', 3, 'is awesome: ', True)
 
 
