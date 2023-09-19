@@ -89,3 +89,6 @@ s = 'a'
 print(s.isalpha())
 s1 = '1'
 print(s1.isdigit())
+
+s = 'Cydeo School'
+print(s.istitle()) # return boolean , example True
